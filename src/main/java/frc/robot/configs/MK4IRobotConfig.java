@@ -13,25 +13,25 @@ import frc.lib.team3061.swerve.SwerveModuleConstants.SwerveType;
 public class MK4IRobotConfig extends RobotConfig {
 
   // FIXME: update all CAN IDs and steer offsets
-  private static final int FRONT_LEFT_MODULE_DRIVE_MOTOR = 7;
-  private static final int FRONT_LEFT_MODULE_STEER_MOTOR = 6;
-  private static final int FRONT_LEFT_MODULE_STEER_ENCODER = 8;
-  private static final double FRONT_LEFT_MODULE_STEER_OFFSET = 118.0371;
+  private static final int FRONT_LEFT_MODULE_DRIVE_MOTOR = 8;
+  private static final int FRONT_LEFT_MODULE_STEER_MOTOR = 2;
+  private static final int FRONT_LEFT_MODULE_STEER_ENCODER = 10;
+  private static final double FRONT_LEFT_MODULE_STEER_OFFSET = 220.781;
 
-  private static final int FRONT_RIGHT_MODULE_DRIVE_MOTOR = 13;
-  private static final int FRONT_RIGHT_MODULE_STEER_MOTOR = 12;
-  private static final int FRONT_RIGHT_MODULE_STEER_ENCODER = 14;
-  private static final double FRONT_RIGHT_MODULE_STEER_OFFSET = 102.9968;
+  private static final int FRONT_RIGHT_MODULE_DRIVE_MOTOR = 3;
+  private static final int FRONT_RIGHT_MODULE_STEER_MOTOR = 0;
+  private static final int FRONT_RIGHT_MODULE_STEER_ENCODER = 12;
+  private static final double FRONT_RIGHT_MODULE_STEER_OFFSET = 200.214;
 
-  private static final int BACK_LEFT_MODULE_DRIVE_MOTOR = 10;
-  private static final int BACK_LEFT_MODULE_STEER_MOTOR = 9;
-  private static final int BACK_LEFT_MODULE_STEER_ENCODER = 11;
-  private static final double BACK_LEFT_MODULE_STEER_OFFSET = -189.7051;
+  private static final int BACK_LEFT_MODULE_DRIVE_MOTOR = 1;
+  private static final int BACK_LEFT_MODULE_STEER_MOTOR = 6;
+  private static final int BACK_LEFT_MODULE_STEER_ENCODER = 9;
+  private static final double BACK_LEFT_MODULE_STEER_OFFSET = 238.535;
 
-  private static final int BACK_RIGHT_MODULE_DRIVE_MOTOR = 16;
-  private static final int BACK_RIGHT_MODULE_STEER_MOTOR = 15;
-  private static final int BACK_RIGHT_MODULE_STEER_ENCODER = 17;
-  private static final double BACK_RIGHT_MODULE_STEER_OFFSET = 40.3335;
+  private static final int BACK_RIGHT_MODULE_DRIVE_MOTOR = 5;
+  private static final int BACK_RIGHT_MODULE_STEER_MOTOR = 7;
+  private static final int BACK_RIGHT_MODULE_STEER_ENCODER = 11;
+  private static final double BACK_RIGHT_MODULE_STEER_OFFSET = 100.019;
 
   private static final int GYRO_ID = 18;
 
